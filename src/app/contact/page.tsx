@@ -66,6 +66,7 @@ export default function AyurvedicContact() {
         subName?: string;
         addressLines: string[];
         mapSrc: string;
+        hours: string;
     };
 
 
@@ -78,7 +79,8 @@ export default function AyurvedicContact() {
                 "Next to Udupi Cafe and Restaurant,",
                 "Dehradun, Uttarakhand"
             ],
-            mapSrc: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1337.585970649006!2d78.05194268291547!3d30.329967568590856!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909291dad7fef37%3A0xb39091551bc6ec11!2sShree%20Samadhan%20Ayurveda-%20Best%20Ayurvedic%20doctor%2FAyurvedic%20physician%2FAgnikarma%2FViddhakarma%2FBest%20Ayurvedic%20clinic%20in%20Dehradun!5e0!3m2!1sen!2sin!4v1766553112938!5m2!1sen!2sin"
+            mapSrc: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1337.585970649006!2d78.05194268291547!3d30.329967568590856!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3909291dad7fef37%3A0xb39091551bc6ec11!2sShree%20Samadhan%20Ayurveda-%20Best%20Ayurvedic%20doctor%2FAyurvedic%20physician%2FAgnikarma%2FViddhakarma%2FBest%20Ayurvedic%20clinic%20in%20Dehradun!5e0!3m2!1sen!2sin!4v1766553112938!5m2!1sen!2sin",
+            hours: "Mon - Sat: 10:00 AM - 7:00 PM"
         },
         rishikesh: {
             name: "Rishikesh Branch",
@@ -88,13 +90,13 @@ export default function AyurvedicContact() {
                 "Next to Burger Singh, Near Neeraj Bhawan,",
                 "Rishikesh"
             ],
-            mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220708.3041773451!2d78.00804091268492!3d30.19235341392952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390917fe30a6ac27%3A0x1e8a25bf15f2adee!2sAvlokan%20Transforming%20Minds%20clinic!5e0!3m2!1sen!2sin!4v1766553206141!5m2!1sen!2sin"
+            mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220708.3041773451!2d78.00804091268492!3d30.19235341392952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390917fe30a6ac27%3A0x1e8a25bf15f2adee!2sAvlokan%20Transforming%20Minds%20clinic!5e0!3m2!1sen!2sin!4v1766553206141!5m2!1sen!2sin",
+            hours: "1st & 3rd Thursday: 11:00 AM - 5:00 PM"
         }
     };
 
     const sharedContact = {
-        phone: "+91 74540 58199",
-        hours: "Mon - Fri: 9:00 AM - 6:00 PM"
+        phone: "+91 74540 58199"
     };
 
     return (
@@ -276,7 +278,7 @@ export default function AyurvedicContact() {
                                         <Clock className="w-5 h-5 text-gray-400 group-hover:text-[#C84F1A] transition-colors" />
                                     </div>
                                     <div>
-                                        <p className="text-gray-900 font-medium">{sharedContact.hours}</p>
+                                        <p className="text-gray-900 font-medium">{branches[activeBranch].hours}</p>
                                         <p className="text-xs text-gray-400 mt-0.5 uppercase tracking-wide">Working Hours</p>
                                     </div>
                                 </div>

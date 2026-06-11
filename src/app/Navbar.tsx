@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, Leaf } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Image from 'next/image';
 
 const Navbar = () => {
@@ -91,7 +91,7 @@ const Navbar = () => {
         {/* Enhanced Mobile Menu */}
         <div className={`md:hidden transition-all duration-500 ease-out ${
           isMenuOpen 
-            ? 'max-h-80 opacity-100 visible' 
+            ? 'max-h-[500px] opacity-100 visible' 
             : 'max-h-0 opacity-0 invisible overflow-hidden'
         }`}>
           <div className="bg-white backdrop-blur-xl rounded-2xl mx-4 my-4 border border-white/30 shadow-2xl overflow-hidden">
@@ -99,7 +99,9 @@ const Navbar = () => {
               <MobileNavLink href="/" label="Home" onClick={() => setIsMenuOpen(false)} />
               <MobileNavLink href="/about" label="About" onClick={() => setIsMenuOpen(false)} />
               <MobileNavLink href="/treatments" label="Treatments" onClick={() => setIsMenuOpen(false)} />
+              <MobileNavLink href="/products" label="Products" onClick={() => setIsMenuOpen(false)} />
               <MobileNavLink href="/gallery" label="Gallery" onClick={() => setIsMenuOpen(false)} />
+              <MobileNavLink href="/achievements" label="Achievements" onClick={() => setIsMenuOpen(false)} />
               <MobileNavLink href="/contact" label="Contact" onClick={() => setIsMenuOpen(false)} />
               
               <div className="px-6 pt-6">
@@ -134,7 +136,7 @@ const NavLink: React.FC<{ href: string; label: string }> = ({ href, label }) => 
 const MobileNavLink: React.FC<{ href: string; label: string; onClick: () => void }> = ({ href, label, onClick }) => (
   <Link 
     href={href} 
-    className="block text-black hover:text-orange-200 hover:bg-white/15 px-6 py-3 transition-all duration-200 font-medium border-l-2 border-transparent hover:border-orange-400"
+    className="block text-black hover:text-[#C84F1A] hover:bg-orange-50/50 px-6 py-3 transition-all duration-200 font-medium border-l-4 border-transparent hover:border-[#C84F1A]"
     onClick={onClick}
   >
     {label}

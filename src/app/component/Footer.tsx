@@ -213,10 +213,16 @@ const Footer: React.FC = () => {
 
             {/* Working Hours */}
             <div className="mt-8">
-              <h5 className="text-white font-semibold mb-3 text-sm">Working Hours</h5>
-              <div className="text-white/80 text-sm space-y-1">
-                <p>Mon - Sat: 10:00 AM - 2:00 PM</p>
-                <p>4:00 PM - 7:00 PM</p>
+              <h5 className="text-white font-semibold mb-3 text-sm font-philosopher">Working Hours</h5>
+              <div className="text-white/80 text-sm space-y-3">
+                <div>
+                  <p className="font-semibold text-orange-400 text-xs uppercase tracking-wider mb-1">Dehradun Branch</p>
+                  <p>Mon - Sat: 10:00 AM - 7:00 PM</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-orange-400 text-xs uppercase tracking-wider mb-1">Rishikesh Branch</p>
+                  <p>1st & 3rd Thursday: 11:00 AM - 5:00 PM</p>
+                </div>
               </div>
             </div>
           </div>
