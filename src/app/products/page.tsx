@@ -9,7 +9,7 @@ import { Product, FilterOptions } from './interface';
 const mockProducts: Product[] = [
   {
     id: 1,
-    name: "Gulkand",
+    name: "Gulkand",  
     price: 1299,
     originalPrice: 1499,
     image: "https://ik.imagekit.io/oa7uh5z0ty/1.jpg?updatedAt=1758807321598",
