@@ -160,12 +160,92 @@ const galleryData: GalleryImage[] = [
   },
  
     {
-    id: 16,
+    id: 21,
     src: "https://ik.imagekit.io/oa7uh5z0ty/IMG-20250922-WA0041.jpg?updatedAt=1758740509735",
     alt: "Yoga and meditation hall",
     title: "Doctor",
     category: "facility",
     description: "Our Lead doctor"
+  },
+  {
+    id: 22,
+    src: "/gallery/IMG_0875.JPG.jpeg",
+    alt: "Clinic gallery image",
+    title: "Clinic Moments",
+    category: "facility",
+    description: "Shree Samadhan Ayurveda clinic"
+  },
+  {
+    id: 23,
+    src: "/gallery/IMG_1422.JPG.jpeg",
+    alt: "Clinic gallery image",
+    title: "Clinic Moments",
+    category: "facility",
+    description: "Shree Samadhan Ayurveda clinic"
+  },
+  {
+    id: 24,
+    src: "/gallery/IMG_1620.JPG.jpeg",
+    alt: "Clinic gallery image",
+    title: "Clinic Moments",
+    category: "facility",
+    description: "Shree Samadhan Ayurveda clinic"
+  },
+  {
+    id: 25,
+    src: "/gallery/IMG_3179.jpg",
+    alt: "Clinic gallery image",
+    title: "Clinic Moments",
+    category: "facility",
+    description: "Shree Samadhan Ayurveda clinic"
+  },
+  {
+    id: 26,
+    src: "/gallery/IMG_3872.jpg",
+    alt: "Clinic gallery image",
+    title: "Clinic Moments",
+    category: "facility",
+    description: "Shree Samadhan Ayurveda clinic"
+  },
+  {
+    id: 27,
+    src: "/gallery/IMG_5537.jpg",
+    alt: "Clinic gallery image",
+    title: "Clinic Moments",
+    category: "facility",
+    description: "Shree Samadhan Ayurveda clinic"
+  },
+  {
+    id: 28,
+    src: "/gallery/IMG_5743.jpg",
+    alt: "Clinic gallery image",
+    title: "Clinic Moments",
+    category: "facility",
+    description: "Shree Samadhan Ayurveda clinic"
+  },
+  {
+    id: 29,
+    src: "/gallery/IMG_5782.jpg",
+    alt: "Clinic gallery image",
+    title: "Clinic Moments",
+    category: "facility",
+    description: "Shree Samadhan Ayurveda clinic"
+  },
+  {
+    id: 30,
+    src: "/gallery/IMG_5793.JPG.jpeg",
+    alt: "Clinic gallery image",
+    title: "Clinic Moments",
+    category: "facility",
+    description: "Shree Samadhan Ayurveda clinic"
+  },
+  {
+    id: 31,
+    src: "/gallery/IMG_6032.jpg",
+    alt: "Clinic gallery image",
+    title: "Clinic Moments",
+    category: "facility",
+    description: "Shree Samadhan Ayurveda clinic"
   }
 ];
 

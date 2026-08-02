@@ -77,7 +77,7 @@ const mockProducts: Product[] = [
     name: "Shatdhaut Ghrita Elixir",
     price: 499,
     originalPrice: 599,
-    image: "https://ik.imagekit.io/oa7uh5z0ty/3%20-%20Copy.jpg?updatedAt=1758807321679",
+    image: "/products/image.png",
     description: "100x churned ghee soothes skin, burns & inflammation.",
     category: "Ayurvedic Medicine",
     brand: "Shree Samadhan Ayurveda",
@@ -116,7 +116,7 @@ const mockProducts: Product[] = [
     name: "Pitta Soothing Candies",
     price: 299,
     originalPrice: 399,
-    image: "/psc.png",
+    image: "/products/pitta.jpeg",
     description: "Cools Pitta, aids digestion & reduces itching/rashes.",
     category: "Ayurvedic Supplements",
     brand: "Shree Samadhan Ayurveda",
@@ -176,6 +176,19 @@ const mockProducts: Product[] = [
     reviews: 35,
     inStock: true,
   },
+  {
+    id: 14,
+    name: "Kumkumadi Oil",
+    price: 699,
+    originalPrice: 899,
+    image: "/products/27BDCA67-690A-4C0A-8871-42848F03823A.PNG",
+    description: "Brightens skin, reduces dark spots & gives natural glow with saffron-based Ayurvedic blend.",
+    category: "Skin Care",
+    brand: "Shree Samadhan Ayurveda",
+    rating: 4.8,
+    reviews: 55,
+    inStock: true,
+  },
 ];
 
 
@@ -188,7 +201,7 @@ export default function ProductPage() {
   const [filters, setFilters] = useState<FilterOptions>({
     categories: [],
     brands: [],
-    priceRange: [0, 200],
+    priceRange: [0, 5000],
     minRating: 0,
     inStockOnly: false
   });
