@@ -128,12 +128,12 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link href="/treatments" className="text-white/80 hover:text-orange-400 transition-colors duration-200 text-sm">
-                  Siravedhan Chikista
+                  Siravedhan Chikitsa
                 </Link>
               </li>
               <li>
                 <Link href="/treatments" className="text-white/80 hover:text-orange-400 transition-colors duration-200 text-sm">
-                  Uttar Basti Chikista
+                  Uttar Basti Chikitsa
                 </Link>
               </li>
               <li>
@@ -193,9 +193,8 @@ const Footer: React.FC = () => {
                   <MapPin className="w-5 h-5 text-orange-400 flex-shrink-0 mt-0.5" />
                   <div>
                     <p className="text-white/80 text-sm leading-relaxed">
-                      Avlokan Clinic<br />
-                      58, Railway Road, Ambedkar Chowk,<br />
-                      Next to Burger Singh, Near Neeraj Bhawan,<br />
+                      Earth Roots Ayurveda<br />
+                      Near Inter College, Tapovan,<br />
                       Rishikesh
                     </p>
                   </div>

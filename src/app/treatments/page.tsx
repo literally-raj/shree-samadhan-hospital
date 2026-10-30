@@ -62,7 +62,7 @@ const treatmentsData: Treatment[] = [
   },
   {
     id: 'siravedhan-chikitsa',
-    title: 'Siravedhan Chikista',
+    title: 'Siravedhan Chikitsa',
     shortDescription: 'Bloodletting technique for reducing high pitta and toxin load.',
     fullDescription:
       'Siravedhan is a bloodletting therapy in Ayurveda used to relieve conditions caused by localised toxin accumulation and aggravated pitta. It improves circulation and is especially beneficial for certain skin and vascular disorders.',
@@ -75,7 +75,7 @@ const treatmentsData: Treatment[] = [
   },
   {
     id: 'uttar-basti-chikitsa',
-    title: 'Uttar Basti Chikista',
+    title: 'Uttar Basti Chikitsa',
     shortDescription: 'Specialized medicated enema for reproductive and urinary health.',
     fullDescription:
       'Uttar Basti is an Ayurvedic Panchakarma therapy involving intravesical or intrauterine administration of medicated oils or decoctions. Highly effective for fertility enhancement, menstrual issues, and urinary tract disorders.',

@@ -23,8 +23,7 @@ const mockProducts: Product[] = [
   {
     id: 2,
     name: "Keshamrit Hair Oil",
-    price: 599,
-    originalPrice: 699,
+    price: 899,
     image: "https://ik.imagekit.io/oa7uh5z0ty/4%20-%20Copy.jpg?updatedAt=1758807321917",
     description: "Handmade Ayurvedic oil reduces hair fall & promotes growth.",
     category: "Hair Care",
@@ -75,8 +74,7 @@ const mockProducts: Product[] = [
   {
     id: 6,
     name: "Shatdhaut Ghrita Elixir",
-    price: 499,
-    originalPrice: 599,
+    price: 599,
     image: "/products/image.png",
     description: "100x churned ghee soothes skin, burns & inflammation.",
     category: "Ayurvedic Medicine",
@@ -179,8 +177,7 @@ const mockProducts: Product[] = [
   {
     id: 14,
     name: "Kumkumadi Oil",
-    price: 699,
-    originalPrice: 899,
+    price: 2699,
     image: "/products/27BDCA67-690A-4C0A-8871-42848F03823A.PNG",
     description: "Brightens skin, reduces dark spots & gives natural glow with saffron-based Ayurvedic blend.",
     category: "Skin Care",

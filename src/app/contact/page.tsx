@@ -84,13 +84,12 @@ export default function AyurvedicContact() {
         },
         rishikesh: {
             name: "Rishikesh Branch",
-            subName: "Avlokan Clinic",
+            subName: "Earth Roots Ayurveda",
             addressLines: [
-                "58, Railway Road, Ambedkar Chowk,",
-                "Next to Burger Singh, Near Neeraj Bhawan,",
+                "Near Inter College, Tapovan,",
                 "Rishikesh"
             ],
-            mapSrc: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220708.3041773451!2d78.00804091268492!3d30.19235341392952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390917fe30a6ac27%3A0x1e8a25bf15f2adee!2sAvlokan%20Transforming%20Minds%20clinic!5e0!3m2!1sen!2sin!4v1766553206141!5m2!1sen!2sin",
+            mapSrc: "https://www.google.com/maps?q=Earth+Roots+Ayurveda+Tapovan+Rishikesh&output=embed",
             hours: "1st & 3rd Thursday: 11:00 AM - 5:00 PM"
         }
     };
