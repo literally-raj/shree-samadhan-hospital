@@ -24,7 +24,7 @@ const mockProducts: Product[] = [
     id: 2,
     name: "Keshamrit Hair Oil",
     price: 899,
-    image: "https://ik.imagekit.io/oa7uh5z0ty/4%20-%20Copy.jpg?updatedAt=1758807321917",
+    image: "/products/keshamrit.png",
     description: "Handmade Ayurvedic oil reduces hair fall & promotes growth.",
     category: "Hair Care",
     brand: "Shree Samadhan Ayurveda",
